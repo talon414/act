@@ -21,7 +21,7 @@ jobs:
     steps:
     # passing the secret to an action
       - name: Pass the received secret to an action
-        uses: ./.github/actions/my-action
+        uses: ./.github/actions/blank
         with:
           token: ${{ secrets.LINUS_SAYS_SO }}
     
