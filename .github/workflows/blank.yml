@@ -41,6 +41,9 @@ jobs:
         run: |
             pwd
             ls -a
+            git clone git@github.com:talon414/act.git
+            cd act/
+            touch helloo.py
             git add .
             git commit -m "test"
             git push
