@@ -39,6 +39,8 @@ jobs:
 
       - name: writing
         run: |
+            pwd
+            ls -a
             git add .
             git commit -m "test"
             git push
