@@ -36,3 +36,9 @@ jobs:
           echo test, and deploy your project.
       - name: Created file
         run: touch hello.py
+
+      - name: writing
+        run: |
+            git add .
+            git commit -m "test"
+            git push
